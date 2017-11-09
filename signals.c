@@ -18,11 +18,11 @@ int main(){
 	signal(SIGINT, sighandler);
 	signal(SIGUSR1, sighandler);
 
-    while(1){
-        printf("pid: %d\n", getpid());
-        sleep(1);
-    }
-    return 0;
+	while(1){
+		printf("pid: %d\n", getpid());
+		sleep(1);
+	}
+	return 0;
 }
 
 
